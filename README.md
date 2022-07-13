@@ -18,9 +18,4 @@ Note: We have run all of our analysis in hg38 annotation
 ## Requeriments
 
 * CRISPRitz: https://github.com/pinellolab/CRISPRitz
-* R Bioconduct Packages: 
-** library(stringr)
-** library(dplyr)
-** library(ggplot2)
-** library(VennDiagram)
-** library(RColorBrewer)
+* R Bioconduct Packages: stringr, dplyr, ggplot2, VennDiagram and RColorBrewer
