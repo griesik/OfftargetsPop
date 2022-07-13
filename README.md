@@ -25,7 +25,8 @@ Note: We have run all of our analysis in hg38 annotation
 CRISPRitz Installation and Usage from https://github.com/InfOmics/CRISPRitz
 
 ```bash
-conda install python=3.8 #crispritz only works with python 3.8
+# crispritz only works with python 3.8
+conda install python=3.8 
 conda uninstall -c bioconda crispritz
 conda install crispritz
 ```
