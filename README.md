@@ -19,6 +19,7 @@ Note: We have run all of our analysis in hg38 annotation
 
 * CRISPRitz: https://github.com/pinellolab/CRISPRitz
 * R Bioconduct Packages: stringr, dplyr, ggplot2, VennDiagram and RColorBrewer
+* Storage local: 100 GB
 
 ## Instalation
 
@@ -33,4 +34,25 @@ conda install crispritz
 
 Install vcflib from https://github.com/vcflib/vcflib
 
+## Run the Scripts
 
+```bash
+sh Gene_therapy_script.sh
+```
+
+```bash
+R --file=GT_offtargets_final_analysis2.r
+```
+
+## Author's contributions 
+
+D.C.T and KGO designed the study, conducted the bioinformatics analysis, produced
+the figures and tables and contributed to writing the manuscript. RW, KTM and ALS
+designed the study and contributed to writing the manuscript. All authors read and 
+approved the final manuscript.
+
+## Acknowledgements
+
+We acknowledge Murilo de Castro Cervato and Renato David Puga
+all the support for bioinformatic analysis and troubleshooting and Rodrigo
+Ferreira de Carvalho for the technical support related to IT infrastrucutre.
