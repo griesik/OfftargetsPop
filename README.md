@@ -19,3 +19,17 @@ Note: We have run all of our analysis in hg38 annotation
 
 * CRISPRitz: https://github.com/pinellolab/CRISPRitz
 * R Bioconduct Packages: stringr, dplyr, ggplot2, VennDiagram and RColorBrewer
+
+## Instalation
+
+CRISPRitz Installation and Usage from https://github.com/InfOmics/CRISPRitz
+
+```bash
+conda install python=3.8 #crispritz only works with python 3.8
+conda uninstall -c bioconda crispritz
+conda install crispritz
+```
+
+Install vcflib from https://github.com/vcflib/vcflib
+
+
