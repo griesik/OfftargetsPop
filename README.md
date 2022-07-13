@@ -36,9 +36,18 @@ Install vcflib from https://github.com/vcflib/vcflib
 
 ## Run the Scripts
 
+In order to execute the process in backround, write the script in .sh file and then use the command:
+
 ```bash
-sh Gene_therapy_script.sh
+sh Gene_therapy_script.sh > loginfo.out &
 ```
+
+Analysis results off-targets GT
+Note: Before running, change the line below in the .R file.
+
+````
+setwd("C:/Users/Karina Griesi/Hospital Albert Einstein/PROADI-AF - General/Anemia_Falciforme/Anemia_Falciforme_compartilhado_20200917/TRI NIO 18-20/off-targets/GT_analysis")
+````
 
 ```bash
 R --file=GT_offtargets_final_analysis2.r
